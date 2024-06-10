@@ -9,12 +9,15 @@
     
 <form action="elabora.php" method="GET">
     
-    <input type="text" placeholder="Scrivi il tuo testo" name="nome">
-    <input type="text" placeholder="Scrivi il tuo testo" name="cognome">
+    <input type="text" placeholder="Scrivi il tuo testo" name="text">
+    
     <button type="submit">Invia</button>
     
 </form>
 
+<?php 
+    strlen ($text): int;
+?>
 
 </body>
 </html>
